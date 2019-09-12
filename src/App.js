@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <CardList robots={robots} />
+      <CardList robotsProp={robots} />  {/* robotProps can be anything. and 'robots' is linked to the const declared in "robots.js" w/ the import */}
     </div>
   );
 }
